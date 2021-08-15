@@ -27,4 +27,6 @@ Route::get('/report', function () {
     return view('report');
 });
 
-
+Route::get('/test', function () {
+    return view('test');
+});
